@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="jumbotron">
+        <h1>FORM ORDER</h1>
+        <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio rem deleniti reprehenderit et labore error vitae quae at recusandae, consectetur blanditiis eligendi eaque voluptates quis commodi provident tenetur exercitationem possimus!s</P>
+    </div>
+    <form action="">
+        <div class="form">
+            <h3>inpormasi produ</h3>
+            <div class="row">
+                <label for="">url</label>
+                <input type="text" name="url" placeholder="http">
+            </div>
+            <div class="row">
+                <label for="">nama produk</label>
+                <input type="text" name="nama" placeholder="silahkan tulis nama produk">
+            </div>
+            <div class="row">
+                <label for="">katagori produk</label>
+                <select name="katagori" id="">
+                    <option value="parabot">parabot</option>
+                    <option value="sembako">sembako</option>
+                    <option value="elektronik">elektronik</option>
+                </select>
+            </div>
+            <div class="row">
+                <label for="">harga/pcs</label>
+                <div class="hg">
+                    <input type="number" name="harga" placeholder="harga produk">
+                    <select name="matauang" id="">
+                        <option value="idr">idr</option>
+                        <option value="usd">usd</option>
+                    </select>
+                </div>
+            </div>    
+            <div class="row">
+                <label class="lb" for="">berat</label>
+                <label for="">ukuran</label>
+                <div class="bu">
+                    <input type="number" name="berat" placeholder="berat">
+                    <select name="gram" id="">
+                        <option value="gram">gram</option>
+                        <option value="liter">liter</option>
+                    </select>
+                    <input type="number" name="ukuran" placeholder="lebar">
+                    <input type="number" name="ukuran" placeholder="tinggi">
+                    <input type="number" name="ukuran" placeholder="panjang">
+                    <select name="cm" id="">
+                        <option value="cm">cm</option>
+                        <option value="m">m</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <label for="">catatan</label>
+                <textarea name="catatan" placeholder="contoh: p,x" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="row">
+                <label for="">jumlah</label>
+                <div class="aa">
+                    <button>-</button>
+                    <input type="text" name="jumlah" id="" value="1" class="control">
+                    <button>+</button>
+                </div>
+            </div>
+            <div class="row">
+                <label for="">negara</label>
+                <select name="negara" id="">
+                    <option value="indonesia">indonesia</option>
+                    <option value="amerika">amerika</option>
+                </select>
+            </div>
+            <div class="row">
+                <div class="gambar">
+                    <label for="upload">upload gambar
+                        <img src="image/upload.jpg" alt="">
+                    </label>
+                    <input type="file" name="upload">
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" name="tambah" value="tambah">
+                <input type="submit" name="beli" value="beli" >
+            </div>
+        </div>
+    </form>
+</body>
+</html>
